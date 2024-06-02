@@ -90,24 +90,63 @@
     padding-top: 50px;
     display: flex;
     padding-bottom: 50px;
+    background-color: rgb(16, 22, 48);
 }
 
 img{
      width: 100%;
+
 }
 
 .abo1{
     border: solid 2px green;
-    width: 350%;
-    margin-left: 70px;
+    width: 100%;
+    margin-left: 80px;
+    display: flex;
 }
 
 .abo2{
     border: solid 2px blue;
-    margin-left: 300px;
+    margin-left: 50px;
     margin-right: 300px;
     
 }
+
+.t30{
+    padding-bottom: 20px;
+    color: white;
+}
+
+.t31{
+    color: white;
+    padding-bottom: 30px;
+}
+
+.b32 {
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 12 px;
+    padding: 10px 30px;
+    color: white;
+    background-image: linear-gradient(to left, #57b8f8, #6424fa, #57b8f8);
+    background-size: 200%;
+}
+
+.b33{
+    border: linear;
+    border-color: linear-gradient (to left, #57b8f8, #6424fa, #57b8f8 ) ;
+    background-color: blue;
+}
+
+.messi{
+        width: 100px;
+        height: 100px;
+        border: solid 4px red;
+        
+}
+
+
+
 
 
 .portfolio{
