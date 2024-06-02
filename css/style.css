@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+        border: solid 2px blue;
+}
+
+.about{
+    border: solid 2px red;
+}
+
+.portfolio{
+    border: solid 2px blue;
+}
+
+.services{
+    border: solid 2px red;
+}
+
+.skills{
+    border: solid 2px blue;
+}
+
+.people{
+    border: solid 2px red;
+}
+
+.contact{
+    border: solid 2px blue;
+}
+
+.footer{
+    border: solid 2px red;
+}
