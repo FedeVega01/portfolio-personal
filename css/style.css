@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/*-------------- INICIO HERO------------------------------*/
+
 .hero{
         
         padding-top: 30px;
@@ -83,50 +85,78 @@
     background-size: 200%;            
 }
 
+/*-----------------------FIN HERO ------------------------*/
 
+
+/*------------------ INICIO ABOUT ------------------------ */
 
 .about{
     border: solid 2px red;
-    padding-top: 50px;
     display: flex;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 250px;
     background-color: rgb(16, 22, 48);
 }
 
-img{
-     width: 100%;
 
+.fotocompleta {
+    position:relative;
 }
 
-.abo1{
-    border: solid 2px green;
+.fotocompleta div{
+    width:350px;
+    height:470px;
+    margin-left: 70px;
+}
+
+.decorado {
+    position: absolute;
+    background-color: rgb(16, 22, 48);
+    top: 50px;
+    left: 35px;
+    border: solid 10px rgb(78, 187, 219);
+    border-radius: 10px;
+}
+
+.fotoperfil{
     width: 100%;
-    margin-left: 80px;
+    border-radius: 10px;
+}
+
+.foto {
     display: flex;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    border-radius: 10px;
 }
 
 .abo2{
     border: solid 2px blue;
-    margin-left: 50px;
-    margin-right: 300px;
+    margin-left: 600px;
+    margin-right: 200px;
     
 }
 
 .t30{
+    padding-top: 45px;
     padding-bottom: 20px;
     color: white;
 }
 
 .t31{
     color: white;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
+    font-size: 20px;
+    line-height: 28px;
+    
 }
 
 .b32 {
     text-decoration: none;
     border-radius: 10px;
     font-size: 12 px;
-    padding: 10px 30px;
+    padding: 25px 55px;
     color: white;
     background-image: linear-gradient(to left, #57b8f8, #6424fa, #57b8f8);
     background-size: 200%;
@@ -138,12 +168,12 @@ img{
     background-color: blue;
 }
 
-.messi{
-        width: 100px;
-        height: 100px;
-        border: solid 4px red;
-        
-}
+/*----------------------- FIN ABOUT ---------------------*/
+
+
+
+
+
 
 
 
