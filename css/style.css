@@ -88,7 +88,27 @@
 .about{
     border: solid 2px red;
     padding-top: 50px;
+    display: flex;
+    padding-bottom: 50px;
 }
+
+img{
+     width: 100%;
+}
+
+.abo1{
+    border: solid 2px green;
+    width: 350%;
+    margin-left: 70px;
+}
+
+.abo2{
+    border: solid 2px blue;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
+
 
 .portfolio{
     border: solid 2px blue;
