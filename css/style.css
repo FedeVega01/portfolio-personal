@@ -6,10 +6,10 @@
 /*-------------- INICIO HERO------------------------------*/
 
 .hero{
-        
-        padding-top: 30px;
+        padding-top: 75px;
         background-color: rgb(16, 22, 48);
-        padding-bottom: 30px;
+        padding-bottom: 100px;
+        
 }
 
 .divhero{
@@ -25,61 +25,76 @@
     padding-left: 50px;
     text-decoration: none;
     color: white;
+    
+}
+
+.menuhero{
+    margin-top: -30px;
 }
 
 .bc{
-    margin-left: 400px;
-    margin-right: 100px;
-    padding-right: 150px;
+    margin-left: 300px;
+    margin-right: 125px;
     text-decoration: none;
     background-image: linear-gradient(to left, #57b8f8, #6424fa, #57b8f8);
     background-size: 200%;            
     border-radius: 10px;
     font-size: 12 px;
-    padding: 10px 30px;
+    padding: 20px 65px;
     color: white;
 
 }
 
 .t10{
-    padding-left: 70px;
+    padding-left: 130px;
+    padding-bottom: 30px;
     color: white;
+    font-size: 43px;
 }
 
 .t20{
-    padding-left: 70px;
+    padding-left: 130px;
+    padding-bottom: 3px;
     color: rgb(134, 131, 130);
+    font-size: 43px;
 }
 
 .t21{
-    padding-left: 70px;
+    padding-left: 130px;
+    padding-bottom: 3px;
     margin: 7px 0px;
     color: white;
+    font-size: 80px;
 }
 
 .t22{
-    padding-left: 70px;
+    padding-left: 130px;
+    padding-bottom: 1px;
     color: rgb(78, 187 , 219);
+    font-size: 43px;
 }
 
 .t23{
-    padding-left: 70px;
+    padding-left: 130px;
+    padding-bottom: 1px;
     margin: 7px 0px;
     color: white;
+    font-size: 43px;
 }
 
 .t24{
-    padding-left: 70px;
-    padding-bottom: 25px;
+    padding-left: 130px;
+    padding-bottom: 75px;
     color: rgb(78, 187 , 219);
+    font-size: 43px;
 }
 
 .b25{
-    margin-left:  70px;
+    margin-left: 130px;
     text-decoration: none;
     border-radius: 10px;
-    font-size: 12 px;
-    padding: 10px 30px;
+    font-size: 12px;
+    padding: 35px 120px;
     color: white;
     background-image: linear-gradient(to left, #57b8f8, #6424fa, #57b8f8);
     background-size: 200%;            
@@ -93,6 +108,7 @@
 .about{
     border: solid 2px red;
     display: flex;
+    
     padding-top: 100px;
     padding-bottom: 250px;
     background-color: rgb(16, 22, 48);
