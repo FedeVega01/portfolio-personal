@@ -191,7 +191,7 @@
 
 .portfolio{
     background-color: rgb(16, 22, 48);
-    padding-bottom: 150px;
+    padding-bottom: 80px;
 }
     
 
@@ -337,9 +337,62 @@
 
 /*----------------------- FIN PORTFOLIO -------------------*/
 
+/*---------------------- INICIO SERVICIO --------------*/
+
 .services{
-    border: solid 2px red;
+    
+    background-color: rgb(16, 22, 48);
+    padding-bottom: 50px;
 }
+
+.tituloservicio{
+    text-align: center;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.contenedorservicio{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-left: 200px;
+        padding-right: 200px;        
+
+}
+
+.serv{
+    border: solid 1px rgb(78, 187, 219);;
+    border-radius: 8px;
+    display: block;
+    padding: 20px;
+    width: 300px;
+    margin-top: 20px;
+    
+}
+
+.tits1, .txts1 {
+    color: white;
+    text-align: start;
+}
+
+.serv h2, p{
+    color: white;
+    text-align: start;
+    padding-bottom: 4px;
+    padding-top: 16px;
+}
+
+.imgserv{
+    width: 55px;
+    height: 55px;
+    border: solid 1px white;
+    border-radius: 8px;
+    
+    
+}
+
+/*--------------------- FIN SERVICIO ------------------*/
+
 
 .skills{
     border: solid 2px blue;
