@@ -393,10 +393,49 @@
 
 /*--------------------- FIN SERVICIO ------------------*/
 
-
+/*--------------------- INICIO SKILLS ----------------*/
 .skills{
-    border: solid 2px blue;
+    background-color: rgb(16, 22, 48);
+    padding-bottom: 50px;
 }
+
+.tituloskills{
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+    
+}
+
+.contenedorskills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left:300px;
+    padding-right: 300px;
+
+}
+
+.sk{
+    display: block;
+    margin-top: 20px;
+    width: 200px;
+    
+}
+
+.sk p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.logoskill{
+     width: 100px;
+     height: 100px;
+     padding: 0px 50px;
+}
+
+
+/*------------------- FIN SKILLS -----------------*/
 
 .people{
     border: solid 2px red;
