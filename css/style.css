@@ -171,17 +171,155 @@
 /*----------------------- FIN ABOUT ---------------------*/
 
 
-
-
-
-
-
-
-
+/*----------------------- INICIO PORTFOLIO ---------------*/
 
 .portfolio{
-    border: solid 2px blue;
+    background-color: rgb(16, 22, 48);
+    padding-bottom: 150px;
 }
+    
+
+.tituloport{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.barramenuport{
+    margin-left: 232px;   
+}
+
+.mp1{
+    color: white;
+    text-decoration: none;
+    
+    margin-left: 50px;
+}
+
+.botonport{
+     text-decoration: none;
+     margin-top: 800px;
+     text-decoration: none;
+     border-radius: 10px;
+     font-size: 12 px;
+     padding: 25px 55px;
+     color: white;
+     background-image: linear-gradient(to left, #57b8f8, #6424fa, #57b8f8);
+     background-size: 200%;
+}
+
+.bp{
+    margin-top: 400px;
+    text-align: center;
+}
+
+.primeraimagen{
+    position: relative;
+    top: 30px;
+    left: 300px;
+}
+
+.primerdecorado{
+    position: absolute;
+    background-color: rgb(16, 22, 48);
+    top: 15px;
+    left: 20px;
+    border: solid 9px rgb(78, 187, 219);
+    border-radius: 12px;
+}
+
+.primerfoto{
+    display: flex;
+    position: absolute;
+    left: 10px;
+    border-radius: 12px;
+}
+
+.primeraimagen div{
+    width: 260px;
+    height: 260px;
+}
+
+
+.imgport1{
+    width: 270px;
+    height: 265px;
+    border-radius: 12px;
+}
+
+.segundaimagen{
+    position: relative;
+    top: 30px;
+    left: 650px;
+}
+
+.segundodecorado {
+    position: absolute;
+    background-color: rgb(16, 22, 48);
+    top: 15px;
+    left: 20px;
+    border: solid 9px rgb(78, 187, 219);
+    border-radius: 12px;
+}
+
+.segundafoto{
+    display: flex;
+    position: absolute;
+    left: 10px;
+    border-radius: 12px;
+}
+
+.segundaimagen div{
+    width: 260px;
+    height: 260px;
+}
+
+.imgport2{
+    width: 270px;
+    height: 265px;
+    border-radius: 12px;
+}
+
+.terceraimagen{
+    position: relative;
+    top: 30px;
+    left: 1000px;
+}
+
+.tercerdecorado {
+    position: absolute;
+    background-color: rgb(16, 22, 48);
+    top: 15px;
+    left: 20px;
+    border: solid 9px rgb(78, 187, 219);
+    border-radius: 12px;
+}
+
+.tercerafoto{
+    display: flex;
+    position: absolute;
+    left: 10px;
+    border-radius: 12px;
+}
+
+.terceraimagen div{
+    width: 260px;
+    height: 260px;
+}
+
+.imgport3{
+    width: 270px;
+    height: 265px;
+    border-radius: 12px;
+}
+
+
+
+
+
+
+/*----------------------- FIN PORTFOLIO -------------------*/
 
 .services{
     border: solid 2px red;
