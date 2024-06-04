@@ -437,13 +437,102 @@
 
 /*------------------- FIN SKILLS -----------------*/
 
-.people{
-    border: solid 2px red;
-}
+
+
+/*------------------ INICIO CONTACTO ---------------*/
 
 .contact{
-    border: solid 2px blue;
+    
+    background-color: rgb(16, 22, 48);
 }
+
+.titcontacto{
+    color: white;
+    text-align: center;
+}
+
+.contenedorcontacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.infopersonal{
+     width: 520px;
+     color: white;
+     margin-left: 100px;
+     
+}
+
+.telefono, .email, .ubicacion{
+    display: flex;
+    padding-top: 10px;
+}
+
+.imgtel, .imgemail, .imgubicacion{
+    width: 58px;
+    height: 58px;
+    border-radius: 17px;
+}
+
+.numerotel, .diremail, .ubi{
+    margin-left: 20px;
+}
+
+.inftit1{
+    padding-top: 20px;
+}
+
+.infparrafo{
+    padding-bottom: 50px;
+}
+
+
+.formulario{
+    background-image: linear-gradient(to left, #3ba8f0, #5513f1, #3ba8f0);
+    background-size: 200%;
+    width: 320px;
+    color: white;
+    border: solid 1px white;
+    margin-right: 300px;
+    border-radius: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px ;
+    padding-bottom: 54px;
+}
+
+.interiorform{
+    padding-bottom: 26px;
+}
+
+.icasillero{
+    background-color: rgb(16, 22, 48);
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+    text-align: left;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 150px;
+    padding-left: 20px;
+}
+
+.botonformulario{
+    color:rgb(16, 22, 48);
+    text-decoration: none;
+    padding: 16px 141px ;
+    background-color: white;
+    border-radius: 6px;
+}
+
+/*------------------ FIN DE CONTACTO ---------------*/
+
+
 
 .footer{
     border: solid 2px red;
