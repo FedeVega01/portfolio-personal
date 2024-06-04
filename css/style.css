@@ -532,8 +532,59 @@
 
 /*------------------ FIN DE CONTACTO ---------------*/
 
-
+/*------------------ INICIO FOOTER -----------------*/
 
 .footer{
     border: solid 2px red;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(17, 24, 50);
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    padding-bottom: 250px;
 }
+
+.f1, .f3{
+    border: solid 1px black;
+    width: 400px;
+    color: white;
+}
+
+.f1{
+    margin-left: 60px;
+}
+
+.f2 {
+    padding-top: 45px;
+    border: solid 1px black;
+    width: 86px;
+    color: white;
+    margin-left: 180px;
+}
+
+.f1 h2{
+    padding-top: 50px;
+}
+
+.f1 h1{
+    padding-top: 60px;
+}
+
+.menufooter a{
+    text-decoration: none;
+    line-height: 40px;
+    color: white; 
+
+    
+}
+
+.mf1{
+    border: solid 1px white;
+    
+}
+
+
+
+
+/*-------------------- FIN FOOTER ------------------*/
