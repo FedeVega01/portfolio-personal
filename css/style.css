@@ -6,13 +6,10 @@
 /*-------------- INICIO HERO------------------------------*/
 
 
-
-
 .hero{
-        padding-top: 75px;
+        padding-top: 40px;
         background-color: rgb(16, 22, 48);
-        padding-bottom: 100px;
-        
+        padding-bottom: 70px;
 }
 
 .divhero{
@@ -24,10 +21,12 @@
 }
 
 .a0, .a1,.a2, .a3{
-    margin-left: 20px;
+    margin-left: 16px;
     padding-left: 50px;
     text-decoration: none;
     color: white;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 17px;
     
 }
 
@@ -43,9 +42,11 @@
     background-size: 200%;            
     border-radius: 10px;
     font-size: 12 px;
-    padding: 20px 65px;
+    padding: 15px 43px;
     color: white;
-
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 20px;
+    font-weight: 520;
 }
 
 .t10{
@@ -53,6 +54,7 @@
     padding-bottom: 30px;
     color: white;
     font-size: 43px;
+    font-family: "Bricolage Grotesque", sans-serif;
 }
 
 .t20{
@@ -60,6 +62,7 @@
     padding-bottom: 3px;
     color: rgb(134, 131, 130);
     font-size: 43px;
+    font-family: "Bricolage Grotesque", sans-serif;
 }
 
 .t21{
@@ -68,6 +71,7 @@
     margin: 7px 0px;
     color: white;
     font-size: 80px;
+    font-family: "Bricolage Grotesque", sans-serif;
 }
 
 .t22{
@@ -75,6 +79,7 @@
     padding-bottom: 1px;
     color: rgb(78, 187 , 219);
     font-size: 43px;
+    font-family: "Bricolage Grotesque", sans-serif;
 }
 
 .t23{
@@ -83,6 +88,7 @@
     margin: 7px 0px;
     color: white;
     font-size: 43px;
+    font-family: "Bricolage Grotesque", sans-serif;
 }
 
 .t24{
@@ -90,17 +96,20 @@
     padding-bottom: 75px;
     color: rgb(78, 187 , 219);
     font-size: 43px;
+    font-family: "Bricolage Grotesque", sans-serif;
 }
 
 .b25{
     margin-left: 130px;
     text-decoration: none;
     border-radius: 10px;
-    font-size: 12px;
-    padding: 35px 120px;
+    padding: 23px 93px;
     color: white;
     background-image: linear-gradient(to left, #57b8f8, #6424fa, #57b8f8);
     background-size: 200%;            
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 20px;
+    font-weight: 690;
 }
 
 /*-----------------------FIN HERO ------------------------*/
@@ -112,7 +121,7 @@
     border: solid 2px red;
     display: flex;
     
-    padding-top: 100px;
+    padding-top: 15px;
     padding-bottom: 250px;
     background-color: rgb(16, 22, 48);
 }
@@ -151,40 +160,51 @@
 }
 
 .abo2{
-    border: solid 2px blue;
     margin-left: 600px;
     margin-right: 200px;
-    
 }
 
 .t30{
     padding-top: 45px;
     padding-bottom: 20px;
     color: white;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
 }
 
 .t31{
     color: white;
     padding-bottom: 70px;
-    font-size: 20px;
     line-height: 28px;
-    
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
 }
 
 .b32 {
     text-decoration: none;
     border-radius: 10px;
-    font-size: 12 px;
-    padding: 25px 55px;
+    padding: 20px 30px;
     color: white;
     background-image: linear-gradient(to left, #57b8f8, #6424fa, #57b8f8);
     background-size: 200%;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 20px;
+    font-weight: 620;
 }
 
 .b33{
-    border: linear;
-    border-color: linear-gradient (to left, #57b8f8, #6424fa, #57b8f8 ) ;
-    background-color: blue;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 20px 30px;
+    color: white;
+    background-color: rgb(16, 22, 48);
+    background-size: 200%;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 20px;
+    font-weight: 620;
+    border: solid 2px #57b8f8;
+    margin-left: 25px;
 }
 
 /*----------------------- FIN ABOUT ---------------------*/
@@ -203,6 +223,9 @@
     text-align: center;
     padding-top: 80px;
     padding-bottom: 50px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
 }
 
 .barramenuport{
@@ -212,7 +235,8 @@
 .mp1{
     color: white;
     text-decoration: none;
-    
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 15px;
     margin-left: 50px;
 }
 
@@ -226,6 +250,9 @@
      color: white;
      background-image: linear-gradient(to left, #57b8f8, #6424fa, #57b8f8);
      background-size: 200%;
+     font-family: "Bricolage Grotesque", sans-serif;
+     font-size: 20px;
+     font-weight: 620;
 }
 
 .bp{
@@ -352,6 +379,9 @@
     text-align: center;
     color: white;
     padding-bottom: 40px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
 }
 
 .contenedorservicio{
@@ -360,7 +390,6 @@
         justify-content: space-between;
         padding-left: 200px;
         padding-right: 200px;        
-
 }
 
 .serv{
@@ -370,19 +399,24 @@
     padding: 20px;
     width: 300px;
     margin-top: 20px;
-    
 }
 
-.tits1, .txts1 {
-    color: white;
-    text-align: start;
-}
-
-.serv h2, p{
+.serv h2{
     color: white;
     text-align: start;
     padding-bottom: 4px;
     padding-top: 16px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 23px;
+}
+
+.serv p{
+    color: white;
+    text-align: start;
+    padding-bottom: 4px;
+    padding-top: 16px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 14px;
 }
 
 .imgserv{
@@ -406,6 +440,9 @@
     color: white;
     text-align: center;
     padding-bottom: 40px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
     
 }
 
@@ -428,7 +465,8 @@
 .sk p{
     color: white;
     text-align: center;
-    font-size: 30px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 25px;
 }
 
 .logoskill{
@@ -453,7 +491,7 @@
 .titcontacto{
     color: white;
     text-align: center;
-    font-family: "Poppins", sans-serif;
+    font-family: "Bricolage Grotesque", sans-serif;
     font-size: 40px;
     font-weight: 450;
 }
@@ -471,7 +509,8 @@
      width: 520px;
      color: white;
      margin-left: 100px;
-     font-family: "Poppins", sans-serif;
+     font-family: "Bricolage Grotesque", sans-serif;
+     
      
 }
 
@@ -510,10 +549,10 @@
     margin-right: 200px;
     border-radius: 8px;
     padding-left: 40px;
-    padding-right: 40px;
+    padding-right: 35px;
     padding-top: 30px ;
     padding-bottom: 54px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Bricolage Grotesque", sans-serif;
 }
 
 .interiorform{
@@ -529,9 +568,9 @@
     text-align: left;
     padding-top: 16px;
     padding-bottom: 16px;
-    padding-right: 55px;
+    padding-right: 127px;
     padding-left: 20px;
-    font-family:"Poppins", sans-serif;
+    font-family: "Bricolage Grotesque", sans-serif;
     font-size: 15px;
 }
 
@@ -541,7 +580,7 @@
     padding: 16px 149px ;
     background-color: white;
     border-radius: 6px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Bricolage Grotesque", sans-serif;
     font-size: 20px;
     font-weight: 620;
 }
