@@ -5,6 +5,9 @@
 
 /*-------------- INICIO HERO------------------------------*/
 
+
+
+
 .hero{
         padding-top: 75px;
         background-color: rgb(16, 22, 48);
@@ -442,13 +445,17 @@
 /*------------------ INICIO CONTACTO ---------------*/
 
 .contact{
-    
     background-color: rgb(16, 22, 48);
+    padding-bottom: 140px;
+    padding-top: 80px;
 }
 
 .titcontacto{
     color: white;
     text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 450;
 }
 
 .contenedorcontacto{
@@ -464,6 +471,7 @@
      width: 520px;
      color: white;
      margin-left: 100px;
+     font-family: "Poppins", sans-serif;
      
 }
 
@@ -484,25 +492,28 @@
 
 .inftit1{
     padding-top: 20px;
+    font-weight: 500;
 }
 
 .infparrafo{
     padding-bottom: 50px;
+    font-weight: 300;
 }
 
 
 .formulario{
     background-image: linear-gradient(to left, #3ba8f0, #5513f1, #3ba8f0);
     background-size: 200%;
-    width: 320px;
+    width: 360px;
     color: white;
     border: solid 1px white;
-    margin-right: 300px;
+    margin-right: 200px;
     border-radius: 8px;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 30px ;
     padding-bottom: 54px;
+    font-family: "Poppins", sans-serif;
 }
 
 .interiorform{
@@ -518,16 +529,21 @@
     text-align: left;
     padding-top: 16px;
     padding-bottom: 16px;
-    padding-right: 150px;
+    padding-right: 55px;
     padding-left: 20px;
+    font-family:"Poppins", sans-serif;
+    font-size: 15px;
 }
 
 .botonformulario{
     color:rgb(16, 22, 48);
     text-decoration: none;
-    padding: 16px 141px ;
+    padding: 16px 149px ;
     background-color: white;
     border-radius: 6px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 620;
 }
 
 /*------------------ FIN DE CONTACTO ---------------*/
@@ -535,32 +551,36 @@
 /*------------------ INICIO FOOTER -----------------*/
 
 .footer{
-    border: solid 2px red;
+    
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: rgb(17, 24, 50);
     border-top-left-radius: 90px;
     border-top-right-radius: 90px;
     padding-bottom: 250px;
+    background-image: linear-gradient(to bottom, rgb(13, 18, 38) , rgb(21, 30, 61) );
+    background-size: 100%;
 }
 
-.f1, .f3{
-    border: solid 1px black;
-    width: 400px;
-    color: white;
-}
+
 
 .f1{
     margin-left: 60px;
+    width: 550px;
+    color: white;
 }
 
-.f2 {
+.f2{
     padding-top: 45px;
-    border: solid 1px black;
-    width: 86px;
+    width: 108px;
     color: white;
-    margin-left: 180px;
+    margin-left: 25px;
+}
+
+.f3{
+    width: 400px;
+    color: white;
+    padding-top: 50px;
 }
 
 .f1 h2{
@@ -575,16 +595,63 @@
     text-decoration: none;
     line-height: 40px;
     color: white; 
-
+    font-family: "Poppins", sans-serif;
     
 }
 
 .mf1{
     border: solid 1px white;
-    
+}
+
+.inst{
+    border-radius: 19px;
+    margin-top: 30px;
+}
+
+.link{
+    border-radius: 19px;
+    margin-left: 20px;
+}
+
+.face{
+    border-radius: 19px;
+    margin-left: 20px;
+}
+
+.p22{
+    color: antiquewhite;
+}
+
+.f3 a{
+    text-decoration: none;
+}
+
+.sredes{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.f1tit1{
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 52px;
+    font-weight: 400;
+}
+
+.f2tit2{
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 50px;
+}
+
+.dh{
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 50px;
+}
+
+.lineafooter{
+    color: white;
+    margin-top: 30px;
+    margin-right: 100px;
 }
 
 
-
-
-/*-------------------- FIN FOOTER ------------------*/
+/*-------------------------------- FIN FOOTER ---------------------------*/
