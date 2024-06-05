@@ -9,7 +9,7 @@
 .hero{
         padding-top: 40px;
         background-color: rgb(16, 22, 48);
-        padding-bottom: 70px;
+        padding-bottom: 60px;
 }
 
 .divhero{
@@ -118,17 +118,17 @@
 /*------------------ INICIO ABOUT ------------------------ */
 
 .about{
-    border: solid 2px red;
-    display: flex;
     
+    display: flex;
     padding-top: 15px;
-    padding-bottom: 250px;
+    padding-bottom: 90px;
     background-color: rgb(16, 22, 48);
 }
 
 
 .fotocompleta {
     position:relative;
+    margin-left: 44px;
 }
 
 .fotocompleta div{
@@ -137,13 +137,14 @@
     margin-left: 70px;
 }
 
-.decorado {
+.decorado{
     position: absolute;
     background-color: rgb(16, 22, 48);
-    top: 50px;
+    top: 40px;
     left: 35px;
     border: solid 10px rgb(78, 187, 219);
     border-radius: 10px;
+    
 }
 
 .fotoperfil{
@@ -370,7 +371,6 @@
 /*---------------------- INICIO SERVICIO --------------*/
 
 .services{
-    
     background-color: rgb(16, 22, 48);
     padding-bottom: 50px;
 }
@@ -399,6 +399,7 @@
     padding: 20px;
     width: 300px;
     margin-top: 20px;
+
 }
 
 .serv h2{
@@ -420,12 +421,12 @@
 }
 
 .imgserv{
-    width: 55px;
-    height: 55px;
+    width: 25px;
+    height: 25px;
+    padding: 10px 10px;
     border: solid 1px white;
-    border-radius: 8px;
-    
-    
+    border-radius: 9px;
+    background-color: white;
 }
 
 /*--------------------- FIN SERVICIO ------------------*/
