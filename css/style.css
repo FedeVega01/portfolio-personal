@@ -215,7 +215,7 @@
 
 .portfolio{
     background-color: rgb(16, 22, 48);
-    padding-bottom: 80px;
+    padding-bottom: 60px;
 }
     
 
@@ -223,7 +223,7 @@
     color: white;
     text-align: center;
     padding-top: 80px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 40px;
     font-weight: 500;
@@ -243,7 +243,7 @@
 
 .botonport{
      text-decoration: none;
-     margin-top: 800px;
+     margin-top: 760px;
      text-decoration: none;
      border-radius: 10px;
      font-size: 12 px;
@@ -263,7 +263,7 @@
 
 .primeraimagen{
     position: relative;
-    top: 30px;
+    
     left: 300px;
 }
 
@@ -297,7 +297,7 @@
 
 .segundaimagen{
     position: relative;
-    top: 30px;
+    
     left: 650px;
 }
 
@@ -330,7 +330,7 @@
 
 .terceraimagen{
     position: relative;
-    top: 30px;
+    
     left: 1000px;
 }
 
@@ -362,12 +362,26 @@
 }
 
 .fi{
-    width: 3%;
-    border: solid 1px white;
+    width: 40px;
+    height: 40px;
+    
     
 }
 
+.flechaizq{
+    position: relative;
+    width: 40px;
+    top: 190px;
+    left: 230px;
+}
 
+.flechader{
+    position: relative;
+    width: 40px;
+    top: 150px;
+    left: 1340px;
+    
+}
 
 
 
@@ -379,6 +393,7 @@
 
 .services{
     background-color: rgb(16, 22, 48);
+    padding-top: 40px;
     padding-bottom: 50px;
 }
 
@@ -465,7 +480,7 @@
 
 .sk{
     display: block;
-    margin-top: 20px;
+    margin-top: 60px;
     width: 200px;
     
 }
@@ -518,8 +533,6 @@
      color: white;
      margin-left: 100px;
      font-family: "Bricolage Grotesque", sans-serif;
-     
-     
 }
 
 .telefono, .email, .ubicacion{
@@ -535,16 +548,21 @@
 
 .numerotel, .diremail, .ubi{
     margin-left: 20px;
+    padding-top: 20px;
 }
 
 .inftit1{
     padding-top: 20px;
-    font-weight: 500;
+    padding-bottom: 20px;
+    font-weight: 580;
+    font-size: 30px;
+    
 }
 
 .infparrafo{
     padding-bottom: 50px;
     font-weight: 300;
+    line-height: 24px;
 }
 
 
@@ -592,6 +610,10 @@
     font-size: 20px;
     font-weight: 620;
 }
+
+.icasillero { 
+    -moz-appearance:textfield; }
+
 
 /*------------------ FIN DE CONTACTO ---------------*/
 
