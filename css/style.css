@@ -9,38 +9,57 @@ body{
    background-color:  rgb(6, 8, 19);
 }
 
+.palabrafondo{
+    position: relative;
+    background-position: 10px;
+    width: 100px;
+    color: white;
+    top: 460px;
+    left: 10px;
+    font-size: 360px;
+    opacity: 0.1;
+    font-family: "Bricolage Grotesque", sans-serif;
+    -webkit-transform: rotate(-25deg);
+    
+    
+}
+
+.hero2{
+    position: absolute;
+    top: 200px;
+}
 
 .hero{
         padding-top: 40px;
         background-color: rgb(16, 22, 48);
-        padding-bottom: 60px;
+        padding-bottom: 300px;
 }
 
 .divhero{
-    
+    position: absolute;
+    top: 70px;
+    left: 130px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-bottom: 55px;
+    
 }
 
 .a0, .a1,.a2, .a3{
-    margin-left: 16px;
-    padding-left: 50px;
+    margin-left: 45px;
     text-decoration: none;
     color: white;
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 17px;
-    
 }
 
 .menuhero{
-    margin-top: -30px;
+    margin-left: 300px;
 }
 
 .bc{
     margin-left: 300px;
-    margin-right: 125px;
     text-decoration: none;
     background-image: linear-gradient(to left, #57b8f8, #6424fa, #57b8f8);
     background-size: 220%;            
@@ -56,12 +75,13 @@ body{
 
 .bc:hover{
         background-position: right;
+        
 }
 
 
 .t10{
-    padding-left: 130px;
-    padding-bottom: 30px;
+    
+    
     color: white;
     font-size: 43px;
     font-family: "Bricolage Grotesque", sans-serif;
@@ -125,6 +145,7 @@ body{
 
 .b25:hover{
     background-position: right;
+    
 }
 
 /*-----------------------FIN HERO ------------------------*/
@@ -211,6 +232,7 @@ body{
 }
 .b32:hover{
     background-position: right;
+    
 }
 
 
@@ -286,6 +308,7 @@ body{
 
 .botonport:hover{
       background-position: right;
+      
 }
 
 .bp{
@@ -637,7 +660,7 @@ body{
 .botonformulario{
     color:rgb(16, 22, 48);
     text-decoration: none;
-    padding: 16px 149px ;
+    padding: 16px 147px ;
     background-color: white;
     border-radius: 6px;
     font-family: "Bricolage Grotesque", sans-serif;
@@ -649,6 +672,7 @@ body{
 .botonformulario:hover{
     background-color: #5513f1 ;
     color: white;
+    border: solid 1px white;
 }
 
 .icasillero { 
@@ -769,10 +793,8 @@ body{
 }
 
 font{
-    color: rgb(75, 50, 203);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
-  
+    color: rgb(86, 63, 202);
+    font-size: 55px;
 }
 
 /*-------------------------------- FIN FOOTER ---------------------------*/
