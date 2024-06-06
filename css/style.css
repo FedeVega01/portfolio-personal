@@ -42,7 +42,6 @@ body{
     align-items: center;
     justify-content: space-between;
     padding-bottom: 55px;
-    
 }
 
 .a0, .a1,.a2, .a3{
@@ -312,7 +311,7 @@ body{
 
 .primeraimagen{
     position: relative;
-    
+    width: 100px;
     left: 300px;
 }
 
@@ -347,6 +346,7 @@ body{
 .segundaimagen{
     position: relative;
     left: 650px;
+    width: 100px;
 }
 
 .segundodecorado {
@@ -378,7 +378,7 @@ body{
 
 .terceraimagen{
     position: relative;
-    
+    width: 100px;
     left: 1000px;
 }
 
