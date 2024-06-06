@@ -20,8 +20,6 @@ body{
     opacity: 0.1;
     font-family: "Bricolage Grotesque", sans-serif;
     -webkit-transform: rotate(-25deg);
-    
-    
 }
 
 .hero2{
@@ -31,8 +29,9 @@ body{
 
 .hero{
         padding-top: 40px;
-        background-color: rgb(16, 22, 48);
         padding-bottom: 300px;
+        background-image: linear-gradient(to bottom, rgb(13, 18, 38) , rgb(19, 28, 61) );
+        background-size: 100%;
 }
 
 .divhero{
@@ -75,13 +74,10 @@ body{
 
 .bc:hover{
         background-position: right;
-        
 }
 
 
 .t10{
-    
-    
     color: white;
     font-size: 43px;
     font-family: "Bricolage Grotesque", sans-serif;
@@ -158,7 +154,7 @@ body{
     display: flex;
     padding-top: 15px;
     padding-bottom: 90px;
-    background-color: rgb(16, 22, 48);
+    background-color: rgb(19, 28, 61) 
 }
 
 
@@ -232,7 +228,6 @@ body{
 }
 .b32:hover{
     background-position: right;
-    
 }
 
 
@@ -263,7 +258,7 @@ body{
 /*----------------------- INICIO PORTFOLIO ---------------*/
 
 .portfolio{
-    background-color: rgb(16, 22, 48);
+    background-color: rgb(19, 28, 61); 
     padding-bottom: 60px;
 }
     
@@ -308,7 +303,6 @@ body{
 
 .botonport:hover{
       background-position: right;
-      
 }
 
 .bp{
@@ -427,19 +421,12 @@ body{
     left: 230px;
 }
 
-
-
-
 .flechader{
     position: relative;
     width: 40px;
     top: 150px;
     left: 1340px;
-    
 }
-
-
-
 
 
 /*----------------------- FIN PORTFOLIO -------------------*/
@@ -447,9 +434,9 @@ body{
 /*---------------------- INICIO SERVICIO --------------*/
 
 .services{
-    background-color: rgb(16, 22, 48);
+    background-color: rgb(19, 28, 61) ;
     padding-top: 40px;
-    padding-bottom: 50px;
+    
 }
 
 .tituloservicio{
@@ -476,7 +463,6 @@ body{
     padding: 20px;
     width: 300px;
     margin-top: 20px;
-
 }
 
 .serv h2{
@@ -510,19 +496,21 @@ body{
 
 /*--------------------- INICIO SKILLS ----------------*/
 .skills{
-    background-color: rgb(16, 22, 48);
-    padding-bottom: 50px;
+    background-image: linear-gradient(to top, rgb(16, 22, 48) , rgb(19, 28, 61) );
+    background-size: 100%;
+    padding-bottom: 20px;
+    padding-top: 60px;
+    
 }
 
 .tituloskills{
     color: white;
     text-align: center;
-    padding-bottom: 40px;
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 40px;
     font-weight: 500;
-    
 }
+
 
 .contenedorskills{
     display: flex;
@@ -530,14 +518,12 @@ body{
     justify-content: space-between;
     padding-left:300px;
     padding-right: 300px;
-
 }
 
 .sk{
     display: block;
     margin-top: 60px;
     width: 200px;
-    
 }
 
 .sk p{
@@ -561,7 +547,7 @@ body{
 /*------------------ INICIO CONTACTO ---------------*/
 
 .contact{
-    background-color: ;
+    
     background-image: linear-gradient(to bottom,rgb(16, 22, 48) , rgb(6, 8, 19) );
     background-size: 100%;
     padding-bottom: 80px;
@@ -694,7 +680,6 @@ body{
     background-image: linear-gradient(to bottom, rgb(13, 18, 38) , rgb(21, 30, 61) );
     background-size: 100%;
 }
-
 
 
 .f1{
