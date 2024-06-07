@@ -7,6 +7,7 @@
 
 body{
    background-color:  rgb(6, 8, 19);
+   
 }
 
 .palabrafondo{
@@ -28,6 +29,7 @@ body{
 }
 
 .hero{
+        display: flex;
         padding-top: 40px;
         padding-bottom: 300px;
         background-image: linear-gradient(to bottom, rgb(13, 18, 38) , rgb(19, 28, 61) );
@@ -142,6 +144,14 @@ body{
     background-position: right;
     
 }
+
+.mimenuhero{
+    color: white;
+    font-size: 20px;
+    display: none;
+}
+
+
 
 /*-----------------------FIN HERO ------------------------*/
 
