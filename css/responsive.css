@@ -1,3 +1,37 @@
+@media(max-width: 1920px){
+    
+    .divhero{width: 1724px;}
+    .menuhero{margin-left: 200px; margin-right: 100px;}
+    .bc{margin-left: 360px;}
+    .palabrafondo{
+        position: relative;
+        background-position: 10px;
+        width: 100px;
+        color: white;
+        top: 530px;
+        left: 50px;
+        font-size: 450px;
+        opacity: 0.1;
+        font-family: "Bricolage Grotesque", sans-serif;
+        -webkit-transform: rotate(-23deg);
+    }
+
+    .barramenuport{margin-left: 400px;}
+    .primeraimagen{margin-left: 170px;}
+    .segundaimagen{margin-left: 170px;}
+    .terceraimagen{margin-left: 170px;}
+    .botonflechaizq{margin-left: 160px;}
+    .botonflechader{margin-left: 170px;}
+    .contenedorservicio{margin-left: 110px; width: 1300px;}
+    .contenedorskills{margin-left: 200px; width: 900px;}
+    .infopersonal{margin-left: 300px;}
+    .formulario{margin-right: 310px;}
+    .lineafinal{display: none;}
+
+}
+
+/*
+
 @media(max-width: 768px){
     .mimenuhero{
         display: flex;
@@ -53,7 +87,7 @@
 
 
     /*---------------- ABOUT -----------------------*/
-
+/*
     .fotocompleta{display: none;}
 
     .portfolio{
@@ -74,7 +108,7 @@
     padding-bottom: 0px;}
 
     /*------------------ SERVICIO ----------------*/
-
+/*
     .services{padding-top: 0;}
 
     .contenedorservicio{
@@ -86,7 +120,7 @@
     .serv{width: 250px;}
     
     /*-------------------- SKILLS -------------- */
-  
+ /* 
     .skills{padding-bottom: 0px;}
 
     .contenedorskills{
@@ -100,7 +134,7 @@
     .sk{margin-left: 60px;}
     
     /*------------------- CONTACTO --------------  */    
-
+/*
     .contact{padding-bottom: 40px;}
 
     .infopersonal{
@@ -150,7 +184,7 @@
     .ico3{margin-left: 84px;}
         
     /* FOOTER  */
-
+/*
     .f1tit1{display: none;}
     .f2tit2{display: none;}
     .f2{margin-left: 34px;}
@@ -163,17 +197,17 @@
 
 
 
-}
+
 
 
 
 
 /*------------------- RESPONSIVE 480---------------*/
-
+/*
 @media(max-width: 480px)
 {
     /*--------------- HERO 480 -------------------------*/
-
+/*
     .mimenuhero{
         display: flex;
         color: white;
@@ -228,7 +262,7 @@
 
 
     /*---------------- ABOUT -----------------------*/
-
+/*
     .fotocompleta{display: none;}
 
     .portfolio{
@@ -249,7 +283,7 @@
     padding-bottom: 0px;}
 
     /*------------------ SERVICIO ----------------*/
-
+/*
     .services{padding-top: 0;}
 
     .contenedorservicio{
@@ -262,7 +296,7 @@
     .serv{width: 250px;}
     
     /*-------------------- SKILLS -------------- */
-  
+/*  
     .skills{padding-bottom: 0px;}
 
     .contenedorskills{
@@ -276,7 +310,7 @@
     .sk{margin-left: 60px;}
     
     /*------------------- CONTACTO --------------  */    
-
+/*
     .infopersonal{
         width: 330px;
         display: flex;
@@ -324,7 +358,7 @@
     .ico3{margin-left: 84px;}
         
     /* FOOTER  */
-
+/*
     .f1tit1{display: none;}
     .f2tit2{display: none;}
     .f2{margin-left: 34px;}
@@ -342,7 +376,7 @@
 @media(max-width: 320px){
     
     /*--------------- HERO -------------------------*/
-
+/*
     .mimenuhero{
         display: flex;
         color: white;
@@ -398,7 +432,7 @@
     .b25{margin-left: 0px;}
 
     /*---------------- ABOUT -----------------------*/
-
+/*
     .fotocompleta{display: none;}
 
     .portfolio{
@@ -420,7 +454,7 @@
     padding-bottom: 0px;}
 
     /*------------------ SERVICIO ----------------*/
-
+/*
     .services{padding-top: 0;}
 
     .contenedorservicio{
@@ -433,6 +467,7 @@
     .serv{width: 250px;}
     
     /*-------------------- SKILLS -------------- */
+ /*
     .skills{padding-bottom: 0px;}
 
     .contenedorskills{
@@ -445,7 +480,7 @@
     .sk{margin-left: 60px;}
     
     /*------------------- CONTACTO --------------  */    
-
+/*
     .infopersonal{
         width: 250px;
         display: flex;
@@ -489,7 +524,7 @@
     .ico3{margin-left: 84px;}
         
     /* FOOTER  */
-
+/*
     .f1tit1{display: none;}
     .f2tit2{display: none;}
     .f2{margin-left: 10px;}
@@ -503,7 +538,7 @@
 
 
 
-@media(max-width: 768px){}
+
 
 @media(max-width: 1024px){}
 @media(max-width: 1280px){}
