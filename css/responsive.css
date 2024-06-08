@@ -4,15 +4,9 @@
     .menuhero{margin-left: 200px; margin-right: 100px;}
     .bc{margin-left: 360px;}
     .palabrafondo{
-        position: relative;
-        background-position: 10px;
-        width: 100px;
-        color: white;
         top: 530px;
         left: 50px;
         font-size: 450px;
-        opacity: 0.1;
-        font-family: "Bricolage Grotesque", sans-serif;
         -webkit-transform: rotate(-23deg);
     }
 
