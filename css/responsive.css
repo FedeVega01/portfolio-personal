@@ -3,12 +3,7 @@
     .divhero{width: 1724px;}
     .menuhero{margin-left: 200px; margin-right: 100px;}
     .bc{margin-left: 360px;}
-    .palabrafondo{
-        top: 530px;
-        left: 50px;
-        font-size: 450px;
-        -webkit-transform: rotate(-23deg);
-    }
+  
 
     .barramenuport{margin-left: 400px;}
     .primeraimagen{margin-left: 170px;}
@@ -23,6 +18,27 @@
     .lineafinal{display: none;}
 
 }
+
+@media(max-width: 1440px){
+    
+    .divhero{width: 1200px;}
+    .bc{margin-left: 180px;}
+    .menuhero{margin-left: 100px;}
+    .barramenuport{margin-left: 128px;}
+    .primeraimagen{margin-left: 0px; left: 220px;}
+    .segundaimagen{margin-left: 0px; left: 590px;}
+    .terceraimagen{margin-left: 0px; left: 940px;}
+    .contenedorservicio{width: 1100px; margin-left: 160px; padding-right: 10px; padding-left: 0px;}
+    .contenedorskills{margin-left: 0px; padding-left: 260px; padding-right: 260px;}
+    .infopersonal{margin-left: 160px;}
+    .formulario{margin-right: 160px;}
+    .flechaizq{left: 0;}
+    .flechader{left: 1100px;}
+    .palabrafondo{font-size: 340px;}
+}
+
+
+
 
 /*
 
