@@ -54,6 +54,25 @@
     .infparrafo{width: 400px;}
 }
 
+@media(max-width: 1024px){
+    .t10{display: none;}
+    .divhero{left: 1px;}
+    .bc{margin-left: 160px;}
+    .hero2{right: 310px;}
+    .palabrafondo{font-size: 250px; -webkit-transform: rotate(-36deg); left: 50px;}
+    .fotocompleta{display: none;}
+    .abo2{margin-left: 140px;}
+    .hero{padding-bottom: 350px;}
+    .portfolio{display: none;}
+    .contenedorservicio{width: 850px;}
+    .contenedorskills{padding-left: 65px;}
+    .formulario{display: none;}
+    .infopersonal{margin-left: 360px;}
+    .f1{display: none;}
+    .divhero{width: 1000px;}
+    .a2{display: none;}
+    .port480{display: none;}
+}
 
 
 /*
