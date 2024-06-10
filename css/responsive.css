@@ -1,591 +1,101 @@
-@media(max-width: 1920px){
-    
-    .divhero{width: 1724px;}
-    .menuhero{margin-left: 200px; margin-right: 100px;}
-    .bc{margin-left: 360px;}
-    .barramenuport{margin-left: 400px;}
-    .primeraimagen{margin-left: 170px;}
-    .segundaimagen{margin-left: 170px;}
-    .terceraimagen{margin-left: 170px;}
-    .botonflechaizq{margin-left: 160px;}
-    .botonflechader{margin-left: 170px;}
-    .contenedorservicio{margin-left: 110px; width: 1300px;}
-    .contenedorskills{margin-left: 200px; width: 900px;}
-    .infopersonal{margin-left: 300px;}
-    .formulario{margin-right: 310px;}
-    .lineafinal{display: none;}
-
+@media(min-width:1920px){
+    .fotocompleta{right: 20px;}
+    .abo2{ width: 1200px; margin-left: 50px;}
+    .t31{padding-bottom: 120px;}
+    .contenedorport{width: 1518px; margin-left: 160px;}
+    .barramenuport{margin-left: 300px;}
+    .contenedorservicio{margin-left:100px; width:1318px;}
+    .contenedorskills{width: 800px;margin-left: 250px;}
+    .contenedorcontacto{width:1516px ;margin-left: 200px;}
 }
 
-@media(max-width: 1440px){
-    
-    .divhero{width: 1200px;}
-    .bc{margin-left: 180px;}
-    .menuhero{margin-left: 100px;}
-    .barramenuport{margin-left: 128px;}
-    .primeraimagen{margin-left: 0px; left: 220px;}
-    .segundaimagen{margin-left: 0px; left: 590px;}
-    .terceraimagen{margin-left: 0px; left: 940px;}
-    .contenedorservicio{width: 1100px; margin-left: 160px; padding-right: 10px; padding-left: 0px;}
-    .contenedorskills{margin-left: 0px; padding-left: 260px; padding-right: 260px;}
-    .infopersonal{margin-left: 160px;}
-    .formulario{margin-right: 160px;}
-    .flechaizq{left: 0;}
-    .flechader{left: 1100px;}
-    .palabrafondo{font-size: 340px;}
-}
-
-@media(max-width: 1280px){
-
-    .palabrafondo{font-size: 300px;}
-    .divhero{left: 79px;}
-    .hero2{right: 850px;}
-    .hero{padding-bottom: 480px;}
-    .fotocompleta{margin-left: 10px;}
-    .barramenuport{margin-left: 50px;}
-    .botonflechaizq{margin-left: 100px;}
-    .primeraimagen{left: 170px;}
-    .segundaimagen{left: 500px;}
-    .terceraimagen{left: 830px;}
-    .flechader{left: 990px;}
-    .contenedorservicio{margin-left: 90px;}
-    .contenedorskills{padding-left: 180px; padding-right: 10px;}
-    .formulario{margin-right: 150px;}
-    .infparrafo{width: 400px;}
-}
-
-@media(max-width: 1024px){
-    
-    .t10{display: none;}
-    .divhero{left: 1px;}
-    .bc{margin-left: 160px;}
-    .hero2{right: 310px;}
-    .palabrafondo{font-size: 250px; -webkit-transform: rotate(-36deg); left: 50px;}
-    .fotocompleta{display: none;}
-    .abo2{margin-left: 140px;}
-    .hero{padding-bottom: 350px;}
-    .portfolio{display: none;}
-    .contenedorservicio{width: 850px;}
-    .contenedorskills{padding-left: 65px;}
-    .formulario{display: none;}
-    .infopersonal{margin-left: 360px;}
-    .f1{display: none;}
-    .divhero{width: 1000px;}
-    .a2{display: none;}
-    .port480{display: none;}
+@media(max-width:1440px){
+        .fotocompleta{left: 0px; right: 30px;}
+        .barramenuport{margin-left: 120px;}
+        .abo2{margin-right: 300px;}
+        .contenedorport{width: 1358px; margin-left: 30px;}
+        .about{padding-bottom: 30px;}
+        .tituloport{padding-top: 40px;}
+        .botonport{margin-top: 0px;}
+        .contenedorservicio{padding-left: 150px; padding-right: 150px;}
+        .skills{padding-top: 60px;}
 }
 
 
-@media(max-width: 768px){
-    .mimenuhero{
-        display: flex;
-        color: white;
-        font-size: 40px;
-        width: 23px;
-        margin-left: 360px;
-    }
-
-    .divhero{display: none;}
-    .palabrafondo{display: none;}
-    .t10{display: none;}
-    .a0, .a1, .a2, .a3, .bc{display: none;}
-
-    .hero2{
-        padding-top: 160px;
-        width: 285px;
-        display: flex;
-        flex-direction: column;
-        top: 0;
-        left: 0;
-        right: 0;
-        margin-left: 80px;
-    }
-
-    .t20{
-        padding-left: 0px;
-        font-size: 30px;
-        margin-left: 25px;
-    }
-    .t21{
-        font-size: 50px;
-        padding-left: 0px; 
-        margin-left: 25px;      
-    }
-
-    .t22{
-        padding-left: 0px;
-        font-size: 30px;
-        margin-left: 25px;
-    }
-    .t23{
-        padding-left: 0px;
-        font-size: 30px;
-        margin-left: 25px;
-    }
-
-    .t24{
-        padding-left: 0px;
-        font-size: 30px;
-        padding-bottom: 45px;
-        margin-left: 25px;
-    }
-    .b25{margin-left: 25px;}
-
-
-    /*---------------- ABOUT -----------------------*/
-
-    .fotocompleta{display: none;}
-
-    .portfolio{
-        display: none;
-    }
-
-    .abo2{
-        margin-left: 10px;
-        margin-right: 0px;
-        padding-top: 180px;
-        width: 588px;
-    }
-
-    .b33 , .b32{display: none;}
-
-    .t30{margin-left: 95px; padding-bottom: 35px;}
-    .t31{margin-left: 95px; padding-right: 10px;
-    padding-bottom: 0px;}
-
-    /*------------------ SERVICIO ----------------*/
-
-    .services{padding-top: 0;}
-
-    .contenedorservicio{
-        display: flex;
-        padding-left: 4px;
-        padding-right: 74px;
-        width: 600px;
-        margin-left: 85px;
-       
-    }
-
-    .serv{width: 250px;}
-    
-    /*-------------------- SKILLS -------------- */
- 
-    .skills{padding-bottom: 0px;}
-
-    .contenedorskills{
-        display: flex;
-        margin-left: 59px;
-        padding-left: 0;
-        padding-right: 0;
-        width: 589px;
-    }
-
-    .sk{margin-left: 60px;}
-    
-    /*------------------- CONTACTO --------------  */    
-
-    .contact{padding-bottom: 80px;}
-
-    .infopersonal{
-        width: 330px;
-        display: flex;
-        flex-direction: column;
-        margin-left: 40px;
-        padding-top: 55px;
-    }
-
-    .contenedorcontacto{
-        display: flex;
-        flex-direction: column;
-        width: 10px;
-        margin-left: 180px;
-        padding: 0;
-
-    }
-
-    .formulario{display: none;}
-    .inftit1{margin-left: 16px; padding-top: 30px;}
-    .infparrafo{margin-left: 20px;}
-
-    .telefono{
-        display: flex;
-        flex-direction: column;
-        margin-left: 46px;
-    }
-    .icoc1{margin-left: 84px;}
-    .numerotel{margin-left: 76px;}
-
-    .email{
-        display: flex;
-        flex-direction: column;
-        margin-left: 46px;
-    }
-    .ico2{margin-left: 84px;}
-
-    .diremail{margin-left: 0px;}
-    
-    .ubicacion{
-        display: flex;
-        flex-direction: column;
-        margin-left: 46px;
-    }
-    .ico3{margin-left: 84px;}
-        
-    /* FOOTER  */
-
-    .f1tit1{display: none;}
-    .f2tit2{display: none;}
-    .f2{margin-left: 34px;}
-    .sredes{margin-left: 45px;}
-    .f3{margin-left: 75px;}
-    .f1{display: none;}
-    .lineafinal{display: none;}
-    .port480{display: none;}
+@media(max-width:1280px){
+        .t10{margin-left: 50px;}
+        .bc{margin-left: 0; margin-right: 80px;}
+        .a2,.a3, .a4{margin-left: 50px;}
+        .hero2{margin-left: 96px;}
+        .fotocompleta{left: 10px;}
+        .abo2{margin-right: 200px;}
+        .barramenuport{margin-left: 110px;}
+        .contenedorport{margin-left: 40px; width: 1200px;}
+        .mp1{margin-left: 35px;}
+        .formulario{margin-right: 100px;}
+        .about{padding-bottom: 10px;}
+        .tituloport{padding-top: 30px;}
+        .botonport{margin-top: 0px;}
+        .contenedorport{padding-bottom: 50px;}
+        .contenedorskills{padding-left: 100px; 
+        padding-right: 100px; margin-left: 240px; width: 576px;}
 }
-/*------------------- FIN 768--------------------------------*/
 
-
-
-
-/*------------------- RESPONSIVE 480---------------*/
-
-@media(max-width: 480px)
-{
-    /*--------------- HERO 480 -------------------------*/
-
-    .mimenuhero{
-        display: flex;
-        color: white;
-        font-size: 40px;
-        width: 23px;
-        margin-left: 220px;
-    }
-
-    .divhero{display: none;}
-    .palabrafondo{display: none;}
-    .t10{display: none;}
-    .a0, .a1, .a2, .a3, .bc{display: none;}
-
-    .hero2{
-        padding-top: 170px;
-        width: 285px;
-        display: flex;
-        flex-direction: column;
-        top: 0;
-        margin-left: 85px;
-    }
-
-    .t20{
-        padding-left: 0px;
-        font-size: 30px;
-        margin-left: 25px;
-    }
-    .t21{
-        font-size: 50px;
-        padding-left: 0px; 
-        margin-left: 25px;      
-    }
-
-    .t22{
-        padding-left: 0px;
-        font-size: 30px;
-        margin-left: 25px;
-    }
-    .t23{
-        padding-left: 0px;
-        font-size: 30px;
-        margin-left: 25px;
-    }
-
-    .t24{
-        padding-left: 0px;
-        font-size: 30px;
-        padding-bottom: 45px;
-        margin-left: 25px;
-    }
-    .b25{margin-left: 25px;}
-
-
-    /*---------------- ABOUT -----------------------*/
-
-    .fotocompleta{display: none;}
-
-    .portfolio{
-        display: none;
-    }
-
-    .abo2{
-        margin-left: 15px;
-        margin-right: 0px;
-        padding-top: 180px;
-        width: 408px;
-    }
-
-    .b33 , .b32{display: none;}
-
-    .t30{margin-left: 95px; padding-bottom: 35px;}
-    .t31{margin-left: 95px; padding-right: 10px;
-    padding-bottom: 0px;}
-
-    /*------------------ SERVICIO ----------------*/
-
-    .services{padding-top: 0;}
-
-    .contenedorservicio{
-        display: flex;
-        flex-direction: column;
-        padding-left: 94px;
-        padding-right: 0px;
-        margin-left: 5px;
-        width: 370px;
-    }
-
-    .serv{width: 250px;}
-    
-    /*-------------------- SKILLS -------------- */
-  
-    .skills{padding-bottom: 0px;}
-
-    .contenedorskills{
-        display: flex;
-        flex-direction: column;
-        margin-left: 79px;
-        padding-left: 0;
-        padding-right: 0;
-        width: 390px;
-    }
-
-    .sk{margin-left: 60px;}
-    
-    /*------------------- CONTACTO --------------  */    
-
-    .infopersonal{
-        width: 330px;
-        display: flex;
-        flex-direction: column;
-        margin-left: 40px;
-        padding-top: 15px;
-    }
-
-    .contenedorcontacto{
-        display: flex;
-        flex-direction: column;
-        width: 10px;
-        margin-left: 40px;
-        padding: 0;
-    }
-
-    .formulario{display: none;}
-    .inftit1{margin-left: 16px; padding-top: 60px;}
-    .infparrafo{margin-left: 20px; width: 300px;}
-
-    .telefono{
-        display: flex;
-        flex-direction: column;
-        margin-left: 46px;
-    }
-    .icoc1{margin-left: 84px;}
-    .numerotel{margin-left: 76px;}
-
-    .email{
-        display: flex;
-        flex-direction: column;
-        margin-left: 46px;
-    }
-    .ico2{margin-left: 84px;}
-
-    .diremail{margin-left: 0px;}
-
-    .ubicacion{
-        display: flex;
-        flex-direction: column;
-        margin-left: 46px;
-    }
-    .ico3{margin-left: 84px;}
-        
-    /* FOOTER  */
-
-    .f1tit1{display: none;}
-    .f2tit2{display: none;}
-    .f2{margin-left: 34px;}
-    .sredes{margin-left: 45px;}
-    .f3{margin-left: 75px;}
-    .f1{display: none;}
-    .lineafinal{display: none;}
-    .port480{display: none;}
-
+@media(max-width:1024px){
+         .bc{margin-right: 40px;}
+         .m1{margin-left: 0px;}
+         .hero2{margin-left: 76px;}
+         .fotocompleta{left: 0;}
+         .abo2{width: 500px; margin-right: 50px;}
+         .contenedorport{width: 1000px; margin-left: 10px;}
+         .barramenuport{margin-left: 0px;}
+         .contenedorskills{margin-left: 120px;}
+         .formulario{display: none;}
+         .f1{display: none;}
 }
-/*----------------- FIN 480 ---------------------------------*/
 
+@media(max-width:768px){
+          .fotocompleta{display: none;}
+          .contenedorfoto{display: none;}
+          .portfolio{display: none;}
+          .navbar{display: none;}
+          
+          .mimenuhero{
+            display: flex;
+            color: white;
+            font-size: 40px;
+            width: 23px;
+            margin-left: 360px;
+            padding-top: 80px;
+           }
 
+           .abo2{margin-right: 110px;}
+           .contenedorservicio{padding-left: 20px; padding-right: 20px;}
+           .contenedorskills{margin-left:40px; width: 476px;}
+           .port480{display: none;}
+}
 
+@media(max-width:480px){
+          .mimenuhero{margin-left: 220px;}
+          .hero2{margin-left: 10px; width: 450px;}
+          .b25{margin-right: 150px;}
+          .abo2{margin-left: 20px; margin-right: 30px;}
+          .contenedorservicio{width: 338px; margin-left: 60px;}
+          .contenedorskills{width:238px ;padding: 0px 0px; margin-left:140px ;}
+          .infopersonal{width:400px ;margin-left:40px;}
+        }
 
-
-@media(max-width: 320px){
-    
-    /*--------------- HERO -------------------------*/
-
-    .mimenuhero{
-        display: flex;
-        color: white;
-        font-size: 40px;
-        width: 23px;
-        margin-left: 145px;
-    }
-
-    .divhero{display: none;}
-    .palabrafondo{display: none;}
-    .t10{display: none;}
-    .a0, .a1, .a2, .a3, .bc{display: none;}
-
-    .hero2{
-        padding-top: 160px;
-        width: 250px;
-        display: flex;
-        flex-direction: column;
-        top: 0;
-        right: 0;
-        left: 0;
-        margin-left: 20px;
-    }
-
-    .t20{
-        padding-left: 0px;
-        font-size: 30px;
-        margin-left: 0px;
-    }
-    .t21{
-        font-size: 60px;
-        padding-left: 0px; 
-        margin-left: 0px;      
-    }
-
-    .t22{
-        padding-left: 0px;
-        font-size: 30px;
-        margin-left: 0px;
-    }
-    .t23{
-        padding-left: 0px;
-        font-size: 30px;
-        margin-left: 0px;
-    }
-
-    .t24{
-        padding-left: 0px;
-        font-size: 30px;
-        padding-bottom: 45px;
-        margin-left: 0px;
-    }
-    .b25{margin-left: 0px;}
-
-    /*---------------- ABOUT -----------------------*/
-
-    .fotocompleta{display: none;}
-
-    .portfolio{
-        display: none;
-    }
-
-    .about{padding-top: 145px;}
-
-    .abo2{
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-top: 90px;
-    }
-
-    .b33 , .b32{display: none;}
-
-    .t30{margin-left: 28px; padding-bottom: 50px;}
-    .t31{margin-left: 25px; padding-right: 15px;
-    padding-bottom: 0px;}
-
-    /*------------------ SERVICIO ----------------*/
-
-    .services{padding-top: 0;}
-
-    .contenedorservicio{
-        display: flex;
-        flex-direction: column;
-        padding-left: 9px;
-        padding-right: 0px;
-        width: 290px;
-    }
-
-    .serv{width: 250px;}
-    
-    /*-------------------- SKILLS -------------- */
-
-    .skills{padding-bottom: 0px;}
-
-    .contenedorskills{
-        display: flex;
-        flex-direction: column;
-        padding-left: 0;
-        padding-right: 0;
-        width: 290px;
-        margin-left: 0px;
-    }
-
-    .sk{margin-left: 60px;}
-    
-    /*------------------- CONTACTO --------------  */    
-
-    .infopersonal{
-        width: 250px;
-        display: flex;
-        flex-direction: column;
-        margin-left: 40px;
-    }
-
-    .contenedorcontacto{
-        display: flex;
-        flex-direction: column;
-        width: 10px;
-        margin: 0;
-        padding: 0;
-    }
-
-    .formulario{display: none;}
-    
-
-    .inftit1{margin-left: 46px;}
-    .infparrafo{margin-left: 18px; width: 220px;}
-
-    .telefono{
-        display: flex;
-        flex-direction: column;
-        margin-left: 6px;
-    }
-    .icoc1{margin-left: 84px;}
-    .numerotel{margin-left: 76px;}
-
-    .email{
-        display: flex;
-        flex-direction: column;
-        margin-left: 6px;
-    }
-    .ico2{margin-left: 84px;}
-
-    .diremail{margin-left: 0px;}
-
-    .ubicacion{
-        display: flex;
-        flex-direction: column;
-        margin-left: 6px;
-    }
-    .ico3{margin-left: 84px;}
-        
-    /* FOOTER  */
-
-    .f1tit1{display: none;}
-    .f2tit2{display: none;}
-    .f2{margin-left: 10px;}
-    .sredes{margin-left: 45px;}
-    .f3{margin-left: 45px;}
-    .f1{display: none;}
-    .lineafinal{display: none;}
+@media(max-width:320px){
+    .mimenuhero{margin-left: 150px;}
+    .b25{display: none;}
+    .hero2{margin-left: 4px; width: 310px;}
+    .t21{font-size: 68px;}
+    .b32 , .b33{display: none;}
+    .contenedorservicio{padding-left:20px; padding-right:20px; width:280px;margin-left: 0px;}
+    .contenedorskills{margin-left: 60px;}
+    .infopersonal{margin-left: 0px;width: 300px;}
+    .diremail, .numerotel, .ubi {margin-left: 10px;}
+    .f3{margin-left: 40px;}
 }
 
 
