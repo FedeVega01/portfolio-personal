@@ -177,8 +177,10 @@ body{background-color:  rgb(6, 8, 19);}
 .fotoperfil{
     width: 100%;
     border-radius: 10px;
-    background-color: yellow;
-}
+    background-image: linear-gradient(to bottom, rgb(145, 108, 200) , rgb(179, 104, 185) );
+    background-size: 100%;
+}       
+
 
 
 .abo2{  width: 600px;
@@ -454,8 +456,7 @@ body{background-color:  rgb(6, 8, 19);}
         justify-content: space-between;
         padding-left: 200px;
         padding-right: 200px;
-                 
-}
+}       
 
 .serv{
     border: solid 1px rgb(78, 187, 219);;
@@ -521,7 +522,7 @@ body{background-color:  rgb(6, 8, 19);}
     justify-content: space-between;
     padding-left:300px;
     padding-right: 300px;
-     
+    
 }
 
 .sk{
@@ -728,7 +729,8 @@ body{background-color:  rgb(6, 8, 19);}
 
 .inst{
     border-radius: 19px;
-    margin-top: 30px;
+    margin-top: 30px; margin-left: 3px;
+    
 }
 
 .link{
@@ -775,7 +777,6 @@ font{
     color: rgb(86, 63, 202);
     font-size: 55px;
 }
-
 
 
 /*-------------------------------- FIN FOOTER ---------------------------*/
