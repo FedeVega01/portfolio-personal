@@ -77,12 +77,12 @@
 
 @media(max-width:480px){
           .mimenuhero{margin-left: 220px;}
-          .hero2{margin-left: 10px; width: 450px;}
+          .hero2{margin-left: 10px; width: 400px;}
           .b25{margin-right: 150px;}
           .abo2{margin-left: 20px; margin-right: 30px;}
-          .contenedorservicio{width: 338px; margin-left: 60px;}
-          .contenedorskills{width:238px ;padding: 0px 0px; margin-left:140px ;}
-          .infopersonal{width:400px ;margin-left:40px;}
+          .contenedorservicio{width: 338px; margin-left: 60px; padding: 0px 0px;}
+          .contenedorskills{width:208px ;padding: 0px 0px; margin-left:130px ;}
+          .infopersonal{width:380px ;margin-left:40px;}
         }
 
 @media(max-width:320px){

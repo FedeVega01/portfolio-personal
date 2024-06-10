@@ -10,7 +10,7 @@ body{background-color:  rgb(6, 8, 19);}
         background-image: linear-gradient(to bottom, rgb(13, 18, 38) , rgb(19, 28, 61) );
         background-size: 100%;
         padding-bottom: 50px;
-
+        
 }
 
 
@@ -65,7 +65,7 @@ body{background-color:  rgb(6, 8, 19);}
     flex-direction: column;
     width: 650px;
     margin-left: 66px;
-    margin-top: 100px;
+    margin-top: 100px; 
 }
 
 .t20{
@@ -129,6 +129,8 @@ body{background-color:  rgb(6, 8, 19);}
     background-position: right;
     
 }
+/*--------------------- FIN HERO ----------------------------*/
+
 
 /*------------------ INICIO ABOUT --------------------------*/
 
@@ -175,6 +177,7 @@ body{background-color:  rgb(6, 8, 19);}
 .fotoperfil{
     width: 100%;
     border-radius: 10px;
+    background-color: yellow;
 }
 
 
@@ -235,6 +238,8 @@ body{background-color:  rgb(6, 8, 19);}
     background-color: #6424fa;
     
 }
+/*------------------------FIN ABOUT----------------------------*/
+
 
 /*--------------------- INICIO PORTFOLIO ----------------------*/
 
@@ -424,13 +429,12 @@ body{background-color:  rgb(6, 8, 19);}
     height: 40px;
 }
 
+/*----------------------- FIN PORTFOLIO ----------------*/
 
 /*---------------------- INICIO SERVICIO --------------*/
 
 .services{
     background-color: rgb(19, 28, 61) ;
-    
-    
 }
 
 .tituloservicio{
@@ -450,7 +454,7 @@ body{background-color:  rgb(6, 8, 19);}
         justify-content: space-between;
         padding-left: 200px;
         padding-right: 200px;
-           
+                 
 }
 
 .serv{
@@ -517,7 +521,7 @@ body{background-color:  rgb(6, 8, 19);}
     justify-content: space-between;
     padding-left:300px;
     padding-right: 300px;
-    
+     
 }
 
 .sk{
