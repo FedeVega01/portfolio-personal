@@ -3,63 +3,48 @@
     padding: 0;
 }
 
-/*-------------- INICIO HERO------------------------------*/
+body{background-color:  rgb(6, 8, 19);}
 
-body{
-   background-color:  rgb(6, 8, 19);
-   
-}
-
-.palabrafondo{
-    position: relative;
-    background-position: 10px;
-    width: 100px;
-    color: white;
-    top: 460px;
-    left: 10px;
-    font-size: 360px;
-    opacity: 0.1;
-    font-family: "Bricolage Grotesque", sans-serif;
-    -webkit-transform: rotate(-25deg);
-}
-
-.hero2{
-    position: absolute;
-    top: 200px;
-}
 
 .hero{
-        display: flex;
-        padding-top: 40px;
-        padding-bottom: 300px;
         background-image: linear-gradient(to bottom, rgb(13, 18, 38) , rgb(19, 28, 61) );
         background-size: 100%;
+        padding-bottom: 50px;
+
 }
 
-.divhero{
-    position: absolute;
-    top: 70px;
-    left: 130px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 55px;
+
+.navbar{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 60px;
+        
 }
 
-.a0, .a1,.a2, .a3{
-    margin-left: 45px;
-    text-decoration: none;
+.navbar a{ color: white; text-decoration: none;
+           font-family: "Bricolage Grotesque", sans-serif;
+           font-size: 17px;  }
+
+           
+
+.t10{
     color: white;
+    font-size: 43px;
     font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 17px;
 }
 
-.menuhero{
-    margin-left: 250px;
+.m1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    margin-left: 100px;
 }
+
+.a2,.a3,.a4{margin-left: 80px;}
+
 
 .bc{
-    margin-left: 260px;
+    margin-left: 180px;
     text-decoration: none;
     background-image: linear-gradient(to left, #57b8f8, #6424fa, #57b8f8);
     background-size: 220%;            
@@ -73,19 +58,18 @@ body{
     transition: 0.7s;
 }
 
-.bc:hover{
-        background-position: right;
-}
+.bc:hover{background-position: right;}
 
-
-.t10{
-    color: white;
-    font-size: 43px;
-    font-family: "Bricolage Grotesque", sans-serif;
+.hero2{
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    margin-left: 66px;
+    margin-top: 100px;
 }
 
 .t20{
-    padding-left: 130px;
+    
     padding-bottom: 3px;
     color: rgb(134, 131, 130);
     font-size: 43px;
@@ -93,16 +77,16 @@ body{
 }
 
 .t21{
-    padding-left: 130px;
+    
     padding-bottom: 3px;
     margin: 7px 0px;
     color: white;
-    font-size: 80px;
+    font-size: 90px;
     font-family: "Bricolage Grotesque", sans-serif;
 }
 
 .t22{
-    padding-left: 130px;
+    
     padding-bottom: 1px;
     color: rgb(78, 187 , 219);
     font-size: 43px;
@@ -110,7 +94,7 @@ body{
 }
 
 .t23{
-    padding-left: 130px;
+    
     padding-bottom: 1px;
     margin: 7px 0px;
     color: white;
@@ -119,18 +103,19 @@ body{
 }
 
 .t24{
-    padding-left: 130px;
-    padding-bottom: 75px;
+    
+    padding-bottom: 30px;
     color: rgb(78, 187 , 219);
     font-size: 43px;
     font-family: "Bricolage Grotesque", sans-serif;
 }
 
 .b25{
-    margin-left: 130px;
+    text-align: center;
+    margin-right: 350px;
     text-decoration: none;
     border-radius: 10px;
-    padding: 23px 93px;
+    padding: 23px 13px;
     color: white;
     background-image: linear-gradient(to left, #57b8f8, #6424fa, #57b8f8);
     background-size: 200%;            
@@ -145,45 +130,44 @@ body{
     
 }
 
-.mimenuhero{
-    color: white;
-    font-size: 20px;
-    display: none;
-}
-
-
-
-/*-----------------------FIN HERO ------------------------*/
-
-
-/*------------------ INICIO ABOUT ------------------------ */
+/*------------------ INICIO ABOUT --------------------------*/
 
 .about{
-    
     display: flex;
-    padding-top: 15px;
-    padding-bottom: 90px;
-    background-color: rgb(19, 28, 61) 
+    background-color: rgb(19, 28, 61);
+    justify-content: space-around; 
+    padding-bottom: 60px;
 }
 
+.contenedorfoto{ display: flex; width: 550px;}
 
 .fotocompleta {
     position:relative;
-    margin-left: 44px;
+    right: 20px;
 }
 
-.fotocompleta div{
+.fotocompleta div{ 
     width:350px;
     height:470px;
     margin-left: 70px;
+    
 }
 
 .decorado{
     position: absolute;
-    background-color: rgb(16, 22, 48);
+    background-color: rgb(19, 28, 61);
     top: 40px;
     left: 35px;
     border: solid 10px rgb(78, 187, 219);
+    border-radius: 10px;
+    
+}
+
+.foto {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 10px;
     border-radius: 10px;
     
 }
@@ -193,21 +177,12 @@ body{
     border-radius: 10px;
 }
 
-.foto {
-    display: flex;
-    position: absolute;
-    top: 20px;
-    left: 10px;
-    border-radius: 10px;
-}
 
-.abo2{
-    margin-left: 600px;
-    margin-right: 200px;
-}
+.abo2{  width: 600px;
+     margin-right: 400px; padding-top: 30px; padding-bottom: 70px;}
 
 .t30{
-    padding-top: 45px;
+    
     padding-bottom: 20px;
     color: white;
     font-family: "Bricolage Grotesque", sans-serif;
@@ -217,7 +192,7 @@ body{
 
 .t31{
     color: white;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
     line-height: 28px;
     font-family: "Poppins", sans-serif;
     font-size: 15px;
@@ -261,29 +236,26 @@ body{
     
 }
 
-/*----------------------- FIN ABOUT ---------------------*/
-
-
-/*----------------------- INICIO PORTFOLIO ---------------*/
+/*--------------------- INICIO PORTFOLIO ----------------------*/
 
 .portfolio{
     background-color: rgb(19, 28, 61); 
-    padding-bottom: 60px;
-}
     
+}
 
 .tituloport{
     color: white;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 60px;
     padding-bottom: 30px;
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 40px;
     font-weight: 500;
+   
 }
 
 .barramenuport{
-    margin-left: 232px;   
+    margin-left: 182px;   
 }
 
 .mp1{
@@ -292,42 +264,58 @@ body{
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 15px;
     margin-left: 50px;
+    
 }
 
+.contenedorport{
+   
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 80px;
+}
+
+.cimg1 ,.cimg2, .cimg3{width: 300px; height: 300px;}
+.cizq, .cder{width: 75px;height: 75px;}
+
 .botonport{
-     text-decoration: none;
-     margin-top: 760px;
-     text-decoration: none;
-     border-radius: 10px;
-     font-size: 12 px;
-     padding: 25px 55px;
-     color: white;
-     background-image: linear-gradient(to left, #57b8f8, #6424fa, #57b8f8);
-     background-size: 200%;
-     font-family: "Bricolage Grotesque", sans-serif;
-     font-size: 20px;
-     font-weight: 620;
-     transition: 0.7s;
+    text-decoration: none;
+    margin-top: 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 12 px;
+    padding: 20px 55px;
+    color: white;
+    background-image: linear-gradient(to left, #57b8f8, #6424fa, #57b8f8);
+    background-size: 200%;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 20px;
+    font-weight: 620;
+    transition: 0.7s;
 }
 
 .botonport:hover{
-      background-position: right;
+     background-position: right;
 }
 
 .bp{
-    margin-top: 400px;
-    text-align: center;
+   display: flex;
+   text-align: center;
+   justify-content: center;
 }
+
+.contprimeraimagen, .contsegundaimagen, .contterceraimagen{
+    display: flex; width: 300px; height: 300px; 
+    margin-top: 40px;
+}    
 
 .primeraimagen{
     position: relative;
-    width: 100px;
-    left: 300px;
+    width: 300px;
 }
 
 .primerdecorado{
     position: absolute;
-    background-color: rgb(16, 22, 48);
+    background-color: rgb(19, 28, 61); 
     top: 15px;
     left: 20px;
     border: solid 9px rgb(78, 187, 219);
@@ -355,13 +343,12 @@ body{
 
 .segundaimagen{
     position: relative;
-    left: 650px;
-    width: 100px;
+    width: 300px;
 }
 
 .segundodecorado {
     position: absolute;
-    background-color: rgb(16, 22, 48);
+    background-color: rgb(19, 28, 61); 
     top: 15px;
     left: 20px;
     border: solid 9px rgb(78, 187, 219);
@@ -386,15 +373,16 @@ body{
     border-radius: 12px;
 }
 
+
 .terceraimagen{
     position: relative;
-    width: 100px;
-    left: 1000px;
+    width: 300px;
+    
 }
 
 .tercerdecorado {
     position: absolute;
-    background-color: rgb(16, 22, 48);
+    background-color: rgb(19, 28, 61); 
     top: 15px;
     left: 20px;
     border: solid 9px rgb(78, 187, 219);
@@ -408,7 +396,7 @@ body{
     border-radius: 12px;
 }
 
-.terceraimagen div{
+.terceraimagen div {
     width: 260px;
     height: 260px;
 }
@@ -419,43 +407,41 @@ body{
     border-radius: 12px;
 }
 
+.botonflechaizq{ 
+    width: 40px;
+    height: 40px;
+    margin-top: 140px;
+}
+
+.botonflechader{
+    width: 40px;
+    height: 40px;
+    margin-top: 140px;
+}
+
 .fi{
     width: 40px;
     height: 40px;
 }
 
-.flechaizq{
-    position: relative;
-    width: 40px;
-    top: 190px;
-    left: 230px;
-}
-
-.flechader{
-    position: relative;
-    width: 40px;
-    top: 150px;
-    left: 1340px;
-}
-
-
-/*----------------------- FIN PORTFOLIO -------------------*/
 
 /*---------------------- INICIO SERVICIO --------------*/
 
 .services{
     background-color: rgb(19, 28, 61) ;
-    padding-top: 40px;
+    
     
 }
 
 .tituloservicio{
     text-align: center;
     color: white;
+    padding-top: 65px;
     padding-bottom: 40px;
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 40px;
     font-weight: 500;
+    
 }
 
 .contenedorservicio{
@@ -463,7 +449,8 @@ body{
         flex-wrap: wrap;
         justify-content: space-between;
         padding-left: 200px;
-        padding-right: 200px;        
+        padding-right: 200px;
+           
 }
 
 .serv{
@@ -497,20 +484,21 @@ body{
     width: 25px;
     height: 25px;
     padding: 10px 10px;
-    border: solid 1px white;
     border-radius: 9px;
     background-color: white;
 }
 
 /*--------------------- FIN SERVICIO ------------------*/
 
+
+
 /*--------------------- INICIO SKILLS ----------------*/
 .skills{
     background-image: linear-gradient(to top, rgb(16, 22, 48) , rgb(19, 28, 61) );
     background-size: 100%;
     padding-bottom: 90px;
-    padding-top: 80px;
-    
+    padding-top: 70px;
+   
 }
 
 .tituloskills{
@@ -519,6 +507,7 @@ body{
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 40px;
     font-weight: 500;
+    
 }
 
 
@@ -528,6 +517,7 @@ body{
     justify-content: space-between;
     padding-left:300px;
     padding-right: 300px;
+    
 }
 
 .sk{
@@ -553,7 +543,6 @@ body{
 /*------------------- FIN SKILLS -----------------*/
 
 
-
 /*------------------ INICIO CONTACTO ---------------*/
 
 .contact{
@@ -561,7 +550,7 @@ body{
     background-image: linear-gradient(to bottom,rgb(16, 22, 48) , rgb(6, 8, 19) );
     background-size: 100%;
     padding-bottom: 80px;
-    padding-top: 80px;
+    
 }
 
 .titcontacto{
@@ -586,6 +575,7 @@ body{
      color: white;
      margin-left: 100px;
      font-family: "Bricolage Grotesque", sans-serif;
+     
 }
 
 .telefono, .email, .ubicacion{
@@ -619,7 +609,7 @@ body{
 }
 
 
-.formulario{
+.formulario{ 
     background-image: linear-gradient(to left, #3ba8f0, #5513f1, #3ba8f0);
     background-size: 200%;
     width: 360px;
@@ -676,6 +666,7 @@ body{
 
 
 /*------------------ FIN DE CONTACTO ---------------*/
+
 
 /*------------------ INICIO FOOTER -----------------*/
 
@@ -775,21 +766,12 @@ body{
     font-size: 50px;
 }
 
-.lineafinal{
-    position: relative;
-    top: 45px;
-    right: 10px;
-    
-}
-
-.lineafooter{
-    color: white;
-
-}
 
 font{
     color: rgb(86, 63, 202);
     font-size: 55px;
 }
+
+
 
 /*-------------------------------- FIN FOOTER ---------------------------*/
