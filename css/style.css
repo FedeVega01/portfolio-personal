@@ -13,12 +13,23 @@ body{background-color:  rgb(6, 8, 19);}
         
 }
 
+.palabrafondo{
+    display: flex;
+    position: absolute; 
+    color: rgb(83, 80, 80);
+    font-family: "Bricolage Grotesque", sans-serif;
+    top: 180px;
+    left: 40px;
+    font-size: 340px;
+    opacity: 0.2;
+    -webkit-transform: rotate(-19deg) ;
+}
 
 .navbar{
         display: flex;
         justify-content: space-around;
         padding-top: 60px;
-        
+        position: relative;
 }
 
 .navbar a{ color: white; text-decoration: none;
@@ -66,6 +77,7 @@ body{background-color:  rgb(6, 8, 19);}
     width: 650px;
     margin-left: 66px;
     margin-top: 100px; 
+    position: relative;
 }
 
 .t20{
@@ -450,13 +462,13 @@ body{background-color:  rgb(6, 8, 19);}
     
 }
 
-.contenedorservicio{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        padding-left: 200px;
-        padding-right: 200px;
-}       
+.contenedorservicio{/*NUEVO*/
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 240px;
+    width: 1101px;
+} 
 
 .serv{
     border: solid 1px rgb(78, 187, 219);;
@@ -778,5 +790,8 @@ font{
     font-size: 55px;
 }
 
+.lineafinal{display: flex; flex-wrap: wrap;
+    position: absolute;
+    color: white;top: 4350px;}
 
 /*-------------------------------- FIN FOOTER ---------------------------*/
