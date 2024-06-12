@@ -6,6 +6,7 @@
 body{background-color:  rgb(6, 8, 19); 
 display: flex; flex-direction: column;}
 
+/*--------------------------- INICIO HERO-----------------------------------------------------*/
 
 .hero{
         background-image: linear-gradient(to bottom, rgb(13, 18, 38) , rgb(19, 28, 61) );
@@ -142,10 +143,10 @@ display: flex; flex-direction: column;}
     background-position: right;
     
 }
-/*--------------------- FIN HERO ----------------------------*/
+/*------------------------------- FIN HERO ----------------------------------------------*/
 
 
-/*------------------ INICIO ABOUT --------------------------*/
+/*---------------------------- INICIO ABOUT -----------------------------------------------*/
 
 .about{
     display: flex;
@@ -252,10 +253,10 @@ display: flex; flex-direction: column;}
     background-color: #6424fa;
     
 }
-/*------------------------FIN ABOUT----------------------------*/
+/*------------------------------------------ FIN ABOUT -------------------------------------------*/
 
 
-/*--------------------- INICIO PORTFOLIO ----------------------*/
+/*----------------------------------------- INICIO PORTFOLIO --------------------------------------*/
 
 .portfolio{
     background-color: rgb(19, 28, 61); 
@@ -270,7 +271,6 @@ display: flex; flex-direction: column;}
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 40px;
     font-weight: 500;
-   
 }
 
 .barramenuport{
@@ -283,11 +283,9 @@ display: flex; flex-direction: column;}
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 15px;
     margin-left: 50px;
-    
 }
 
 .contenedorport{
-   
     display: flex;
     justify-content: space-around;
     padding-bottom: 80px;
@@ -443,9 +441,10 @@ display: flex; flex-direction: column;}
     height: 40px;
 }
 
-/*----------------------- FIN PORTFOLIO ----------------*/
+/*--------------------------------------- FIN PORTFOLIO ----------------------------------*/
 
-/*---------------------- INICIO SERVICIO --------------*/
+
+/*--------------------------------------- INICIO SERVICIO ---------------------------------*/
 
 .services{
     background-color: rgb(19, 28, 61) ;
@@ -505,11 +504,11 @@ display: flex; flex-direction: column;}
     background-color: white;
 }
 
-/*--------------------- FIN SERVICIO ------------------*/
+/*------------------------------------------- FIN SERVICIO --------------------------------------*/
 
 
 
-/*--------------------- INICIO SKILLS ----------------*/
+/*------------------------------------------- INICIO SKILLS ---------------------------------------*/
 .skills{
     background-image: linear-gradient(to top, rgb(16, 22, 48) , rgb(19, 28, 61) );
     background-size: 100%;
@@ -557,10 +556,10 @@ display: flex; flex-direction: column;}
 }
 
 
-/*------------------- FIN SKILLS -----------------*/
+/*---------------------------------------- FIN SKILLS ----------------------------------*/
 
 
-/*------------------ INICIO CONTACTO ---------------*/
+/*---------------------------------------- INICIO CONTACTO -----------------------------*/
 
 .contact{
     
@@ -682,10 +681,10 @@ display: flex; flex-direction: column;}
     -moz-appearance:textfield; }
 
 
-/*------------------ FIN DE CONTACTO ---------------*/
+/*-------------------------------------------- FIN DE CONTACTO ---------------------------------*/
 
 
-/*------------------ INICIO FOOTER -----------------*/
+/*------------------------------------------ INICIO FOOTER ----------------------------------------*/
 
 .footer{
     
@@ -794,4 +793,4 @@ font{
     position: absolute;
     color: white;top: 4350px;}
 
-/*-------------------------------- FIN FOOTER ---------------------------*/
+/*--------------------------------------------------- FIN FOOTER --------------------------------------------*/
