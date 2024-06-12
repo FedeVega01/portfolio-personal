@@ -3,7 +3,7 @@ El diseño elegido es el siguiente:
 
 https://www.behance.net/gallery/196797203/Personal-Portfolio-Landing-Page-UI-Design-I-Website?tracking_source=search_projects%7Cpersonal+portfolio+website+design&l=40
 
-Pertenece al autor Tabrez Khan de la India, con el que tuvimos contacto para saber que tipo de fuente habia utilizado y muy amablemente nos dio esa información.
+Pertenece al diseñador Tabrez Khan de la India, con el que tuvimos contacto para saber que tipo de fuente habia utilizado y muy amablemente nos dio esa información.
 A este diseño se le aplico HTML ,CSS para su respectiva creación y se le añadio nuestra información personal.
 Las fuente tipográficas usadas son Poppins y Bricolage Grotesque. 
 Este diseño ademas es responsive, a medidas 320px, 480px, 768px y 1024px se mantiene la información que creemos que es útil y necesaria para el cliente usuario. Y en
