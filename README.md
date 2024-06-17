@@ -9,3 +9,5 @@ Las fuente tipográficas usadas son Poppins y Bricolage Grotesque.
 Este diseño ademas es responsive, a medidas 320px, 480px, 768px y 1024px se mantiene la información que creemos que es útil y necesaria para el cliente usuario. Y en
 medidas 1280px, 1440px y 1920px mantenemos el diseño creado por el diseñador.
 Mas adelante se le ira agregando otros tipos de tecnologías y mas información personal.  
+
+Visualizacion del proyecto: https://fedevega01.github.io/portfolio-personal/
